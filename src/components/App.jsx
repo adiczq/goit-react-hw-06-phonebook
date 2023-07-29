@@ -6,9 +6,9 @@ import css from './App.module.css';
 export function App() {
   return (
     <div className={css.container}>
-      <h1 style={{ textAlign: 'center' }}>Phonebook</h1>
+      <h1>Phonebook</h1>
       <ContactForm />
-      <h2 style={{ textAlign: 'center' }}>Contacts</h2>
+      <h2>Contacts</h2>
       <Filter />
       <ContactList />
     </div>
